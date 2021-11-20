@@ -22,6 +22,8 @@ public class Main {
 			}
 			linkedHashMap.put(word, value);
 		}
-		System.out.println(linkedHashMap.get("paranoid"));
+		System.out.println(linkedHashMap);
+		linkedHashMap.remove("avoidable");
+		System.out.println(linkedHashMap.get("avoidable"));
 	}
 }
